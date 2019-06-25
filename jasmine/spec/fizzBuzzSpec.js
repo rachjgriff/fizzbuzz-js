@@ -25,4 +25,8 @@ describe("Fizzbuzz", function() {
   it("prints Fizz instead of 6", function() {
     expect(fizzBuzz.play(6)).toEqual('Fizz');
   });
+
+  it("prints Fizz instead of 9", function() {
+    expect(fizzBuzz.play(9)).toEqual('Fizz');
+  });
 });
