@@ -1,4 +1,4 @@
-FizzBuzz in JavaScript
+# FizzBuzz in JavaScript
 
 Writing a FizzBuzz program in JavaScript. The rules of FizzBuzz:
 
