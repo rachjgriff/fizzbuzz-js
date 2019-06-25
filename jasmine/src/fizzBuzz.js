@@ -2,6 +2,6 @@ function FizzBuzz() {
 
 };
 
-FizzBuzz.prototype.play = function() {
-  return 1
+FizzBuzz.prototype.play = function(number) {
+  return number
 };
