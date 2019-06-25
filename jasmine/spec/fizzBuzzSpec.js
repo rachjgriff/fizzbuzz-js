@@ -24,7 +24,13 @@ describe("Fizzbuzz", function() {
     });
   });
 
-  it("prints Buzz instead of 5", function() {
-    expect(fizzBuzz.play(5)).toEqual('Buzz');
+  describe("Prints Buzz for multiples of 5", function() {
+    it("prints Buzz instead of 5", function() {
+      expect(fizzBuzz.play(5)).toEqual('Buzz');
+    });
+
+    it("prints Buzz for multiples of 5", function() {
+      expect(fizzBuzz.play(10)).toEqual('Buzz');
+    });
   });
 });
