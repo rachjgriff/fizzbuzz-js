@@ -3,5 +3,9 @@ function FizzBuzz() {
 };
 
 FizzBuzz.prototype.play = function(number) {
-  return number
+  if (number === 3) {
+    return 'Fizz';
+  } else {
+    return number;
+  };
 };
