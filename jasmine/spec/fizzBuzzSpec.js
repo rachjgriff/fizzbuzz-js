@@ -16,4 +16,9 @@ describe("Fizzbuzz", function() {
     fizzBuzz = new FizzBuzz();
     expect(fizzBuzz.play(3)).toEqual('Fizz');
   });
+
+  it("prints Buzz instead of 5", function() {
+    fizzBuzz = new FizzBuzz();
+    expect(fizzBuzz.play(5)).toEqual('Buzz');
+  });
 });
