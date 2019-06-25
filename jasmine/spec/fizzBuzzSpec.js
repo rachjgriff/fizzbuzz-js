@@ -33,4 +33,10 @@ describe("Fizzbuzz", function() {
       expect(fizzBuzz.play(10)).toEqual('Buzz');
     });
   });
+
+  describe("Prints FizzBuzz for multiples of 15", function() {
+    it("prints FizzBuzz instead 15", function() {
+      expect(fizzBuzz.play(15)).toEqual('FizzBuzz');
+    });
+  });
 });
