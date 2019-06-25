@@ -3,7 +3,7 @@ function FizzBuzz() {
 };
 
 FizzBuzz.prototype.play = function(number) {
-  if (number === 15) {
+  if (number % 15 === 0) {
     return 'FizzBuzz';
   } else if (number % 3 === 0) {
     return 'Fizz';
